@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true // 파일 대소문자 일관성
+  },
+  "include": ["apply-server/**/*.ts", "grant-server/**/*.ts", "**/*.ts"],
+}
